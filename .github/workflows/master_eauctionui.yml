@@ -52,4 +52,4 @@ jobs:
           app-name: 'eauctionui'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_670190A946AD49B882775929A54357DC }}
-          package: .
+          package: ./dist/ample-admin-angular
